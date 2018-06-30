@@ -1,0 +1,25 @@
+<app-header></app-header>
+<ion-content padding>
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <!--<form>-->
+          <div class="form-row">
+            <div class="col-12 col-md-3">
+              <ion-item no-padding>
+                <ion-input type="email" id="txtLandingEmail" placeholder="Enter your email..."></ion-input>
+              </ion-item>
+            </div>
+            <div class="col-12 col-md-3 mar-t-10">
+              <button ion-button full (click)="btnLoginClick()">Login</button>
+            </div>
+            <div class="col-12 col-md-3">
+              <button ion-button full (click)="btnSignUpClick()">Sign up!</button>
+            </div>
+          </div>
+        <!--</form>-->
+      </div>
+    </div>
+  </div>
+</ion-content>
